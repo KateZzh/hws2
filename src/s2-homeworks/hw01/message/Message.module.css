@@ -1,0 +1,53 @@
+.message {
+    padding: 30px 70px 0;
+}
+
+.imageAndText {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 12px;
+    align-items: end;
+}
+
+.imageAndText img {
+    width: 48px;
+    height: 48px;
+    border: 50%;
+}
+
+.text {
+    background-color: #0066cc;
+    border-radius: 5px 5px 0 5px;
+    padding: 8px 12px;
+    text-align: right;
+
+    position: relative;
+}
+
+.text:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 13px solid #0066cc;
+
+    position: absolute;
+    right: -12px;
+}
+
+.name {
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 4px;
+}
+
+.messageText {
+    font: 400 16px Montserrat;
+    color: #fff;
+}
+
+.time {
+    font-size: 10px;
+    text-align: right;
+    padding: 5px 10px 0 0;
+}
