@@ -1,12 +1,15 @@
 .message {
-    padding: 30px 70px 0;
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 100%;
+    padding-bottom: 25px;
 }
 
 .imageAndText {
     display: flex;
     flex-direction: row-reverse;
-    gap: 12px;
     align-items: end;
+    gap: 12px;
 }
 
 .imageAndText img {
@@ -20,6 +23,7 @@
     border-radius: 5px 5px 0 5px;
     padding: 8px 12px;
     text-align: right;
+    max-width: 575px;
 
     position: relative;
 }
@@ -29,7 +33,7 @@
     width: 0;
     height: 0;
     border-top: 8px solid transparent;
-    border-left: 13px solid #0066cc;
+    border-left: 14px solid #0066cc;
 
     position: absolute;
     right: -12px;
@@ -44,6 +48,9 @@
 .messageText {
     font: 400 16px Montserrat;
     color: #fff;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    max-width: 500px;
 }
 
 .time {

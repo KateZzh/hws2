@@ -1,5 +1,8 @@
 .friendMessage {
-    padding: 30px 70px 0;
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 100%;
+    padding: 5px 0 30px;
 }
 
 .friendImageAndText {
@@ -27,7 +30,7 @@
     width: 0;
     height: 0;
     border-top: 8px solid transparent;
-    border-right: 13px solid #f5f7fb;
+    border-right: 14px solid #f5f7fb;
 
     position: absolute;
     left: -12px;
@@ -40,6 +43,9 @@
 
 .friendMessageText {
     font: 400 16px Montserrat;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    max-width: 500px;
 }
 
 .friendTime {
