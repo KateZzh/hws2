@@ -13,7 +13,7 @@ export type FilterType = 'all' | AffairPriorityType;
 
 // constants
 const defaultAffairs: AffairType[] = [
-    { _id: 1, name: 'React', priority: 'high' }, 
+    { _id: 1, name: 'React', priority: 'high' },
     { _id: 2, name: 'anime', priority: 'low' },
     { _id: 3, name: 'games', priority: 'low' },
     { _id: 4, name: 'work', priority: 'high' },
@@ -37,7 +37,7 @@ function HW2() {
     const filteredAffairs = filterAffairs(affairs, filter);
     const deleteAffairCallback = (_id: number) => {
         const newState = deleteAffair(affairs, _id);
-        
+
         setAffairs(newState);
     };
 
