@@ -30,13 +30,13 @@
 
 .text:after {
     content: '';
-    width: 0;
-    height: 0;
-    border-top: 8px solid transparent;
-    border-left: 14px solid #0066cc;
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 14px 0, rgba(0, 0, 0, 0) 15px, #0066cc 0);
 
     position: absolute;
-    right: -12px;
+    bottom: 0;
+    right: -15px;
 }
 
 .name {
