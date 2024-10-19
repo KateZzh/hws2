@@ -27,13 +27,13 @@
 
 .friendText:after {
     content: '';
-    width: 15px;
-    height: 15px;
-    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 16px, #f5f7fb 0);
-
     position: absolute;
     bottom: 0;
-    left: -15px;
+    right: 100%;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: radial-gradient(60px at top left, transparent 49%, #f5f7fb 0%) no-repeat right bottom;
 }
 
 .friendName {
