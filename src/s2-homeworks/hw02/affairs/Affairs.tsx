@@ -37,7 +37,7 @@ function Affairs(props: AffairsPropsType) {
     ));
 
     return (
-        <div>
+        <div style={{maxWidth: '1140px', width: '100%', margin: '0 auto'}}>
             <div className={s.buttonContainer}>
                 <button id={'hw2-button-all'} onClick={setAll} className={cnAll}>
                     All
