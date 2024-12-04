@@ -1,16 +1,19 @@
 [data-theme='1'] {
     --color: #000000;
-    --background: #FFFFFF;
+    --background: #ffffff;
+    --background_img: url('../hw07/common/c5-SuperSelect/chevron-down.svg');
 }
 
 [data-theme='2'] {
     --color: #000000;
-    --background: #DDEEFF;
+    --background: #ddeeff;
+    --background_img: url('../hw07/common/c5-SuperSelect/chevron-down.svg');
 }
 
 [data-theme='3'] {
-    --color: #FFFFFF;
-    --background: #212A34;
+    --color: #ffffff;
+    --background: #212a34;
+    --background_img: url('../hw07/common/c5-SuperSelect/chevron-down-white.svg');
 }
 
 html {
@@ -19,5 +22,21 @@ html {
 }
 
 .select {
+    background-color: var(--background);
+    background-image: var(--background_img);
+    color: var(--color);
+    margin-bottom: 50px;
+}
 
+.span_hw12 {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 6px;
+}
+
+.container_hw12 {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
 }
