@@ -22,7 +22,7 @@ const HW10 = () => {
             <div className={s2.hwTitle}>Homework #10</div>
 
             <div className={s2.hw}>
-                <div style={{ maxWidth: '1140px', margin: '50px auto' }}>
+                <div style={{ maxWidth: '1140px', margin: '0 auto', height: '200px' }}>
                     {isLoading ? (
                         <div id={'hw10-loading'}>
                             <Loader />

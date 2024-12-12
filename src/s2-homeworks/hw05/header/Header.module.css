@@ -7,6 +7,9 @@
 .headerWrapper {
     background-color: #ffffff;
     box-shadow: 0 0 2px 0 #1d21261a, 0 0 40px 0 #1d212621;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .header {
