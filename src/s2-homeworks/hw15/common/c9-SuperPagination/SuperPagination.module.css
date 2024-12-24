@@ -1,11 +1,16 @@
 .pagination {
     display: flex;
+    align-items: center;
+    padding: 10px 0 36px;
 }
 
 .text1 {
-
+    padding: 0 10px 0 24px;
+    font: 400 14px 'Roboto', sans-serif;
+    text-transform: capitalize;
 }
 
 .text2 {
-
+    font: 400 14px 'Roboto', sans-serif;
+    padding: 0 6px;
 }

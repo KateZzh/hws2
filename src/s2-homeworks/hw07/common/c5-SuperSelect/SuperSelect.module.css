@@ -1,6 +1,6 @@
 .select {
-    width: 165px;
-    padding: 5px;
+    max-width: 165px;
+    padding: 5px 25px 5px 5px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     cursor: pointer;
